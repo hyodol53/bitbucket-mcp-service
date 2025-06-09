@@ -2,7 +2,7 @@
 # Development files
 .vscode/
 node_modules/
-build
+# build - 빌드 파일은 npm 배포를 위해 포함
 *.d.ts
 *.d.ts.map
 NPM_DEPLOYMENT_GUIDE.md
