@@ -1,0 +1,38 @@
+
+# Development files
+.vscode/
+node_modules/
+build
+*.d.ts
+*.d.ts.map
+NPM_DEPLOYMENT_GUIDE.md
+
+
+# Test files
+test/
+*.test.js
+*.test.ts
+test.http
+
+# Build artifacts that shouldn't be published
+*.log
+*.tgz
+coverage/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,46 @@
+# Source files - TypeScript source will be included via "files" field
+# src/
+*.ts
+!*.d.ts
+
+# Development files
+.vscode/
+node_modules/
+.git/
+.gitignore
+
+# Test files
+test/
+*.test.js
+*.test.ts
+test.http
+
+# Documentation (will be included via "files" field)
+# README.md
+# SETUP_GUIDE.md
+
+# Build artifacts that shouldn't be published
+*.log
+*.tgz
+coverage/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+BUILD_FIXED.md
+DEFAULT_WORKSPACE_UPDATE.md
+TROUBLESHOOTING.md

@@ -1,0 +1,53 @@
+{
+  "name": "bitbucket-mcp-service",
+  "version": "1.0.0",
+  "description": "MCP server for Bitbucket API integration",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "bitbucket-mcp-service": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "prepublishOnly": "npm run build",
+    "postinstall": "npm run build"
+  },
+  "files": [
+    "build/**/*",
+    "src/**/*",
+    "tsconfig.json",
+    "README.md",
+    "SETUP_GUIDE.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "bitbucket",
+    "api",
+    "git",
+    "model-context-protocol",
+    "claude"
+  ],
+  "author": "hyojae",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyodol53/bitbucket-mcp-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hyodol53/bitbucket-mcp-service/issues"
+  },
+  "homepage": "https://github.com/hyodol53/bitbucket-mcp-service#readme"
+}

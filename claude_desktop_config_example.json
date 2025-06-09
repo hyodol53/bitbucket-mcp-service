@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "bitbucket": {
+      "command": "node",
+      "args": ["D:/tmp/bitbucket-mcp-server/build/src/index.js"],
+      "env": {
+        "BITBUCKET_USERNAME": "your_actual_username",
+        "BITBUCKET_APP_PASSWORD": "your_actual_app_password",
+        "BITBUCKET_DEFAULT_WORKSPACE": "your_default_workspace"
+      }
+    }
+  }
+}
