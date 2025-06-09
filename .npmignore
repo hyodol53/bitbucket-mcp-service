@@ -1,23 +1,19 @@
-# Source files - TypeScript source will be included via "files" field
-# src/
-*.ts
-!*.d.ts
-
 # Development files
 .vscode/
 node_modules/
 .git/
 .gitignore
 
+# Source TypeScript files (only include build output)
+src/
+*.ts
+!*.d.ts
+
 # Test files
 test/
 *.test.js
 *.test.ts
 test.http
-
-# Documentation (will be included via "files" field)
-# README.md
-# SETUP_GUIDE.md
 
 # Build artifacts that shouldn't be published
 *.log
@@ -44,3 +40,4 @@ Thumbs.db
 BUILD_FIXED.md
 DEFAULT_WORKSPACE_UPDATE.md
 TROUBLESHOOTING.md
+NPM_DEPLOYMENT_GUIDE.md

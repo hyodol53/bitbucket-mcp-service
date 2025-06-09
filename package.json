@@ -15,8 +15,6 @@
   },
   "files": [
     "build/**/*",
-    "src/**/*",
-    "tsconfig.json",
     "README.md",
     "SETUP_GUIDE.md"
   ],
